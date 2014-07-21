@@ -7,6 +7,16 @@
 class GameObject :
 	public SpriteAnimation
 {
+	int _x;
+	int _y;
+	float _Vx;
+	float _Vy;
+
+	int _initialX;
+	int	_initialY;
+	int	_initialVx;
+	int	_initialVy;
+
 	enum ObjectType
 	{
 		PLAYER,
